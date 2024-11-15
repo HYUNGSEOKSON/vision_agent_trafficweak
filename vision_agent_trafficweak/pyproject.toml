@@ -1,0 +1,16 @@
+[project]
+name = "traffic-weak-sign-detection"
+version = "1.0.0"
+description = "A program to detect traffic weak signboards using SIFT algorithm and OpenCV"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+dependencies = [
+    "opencv-python>=4.10.4",
+    "numpy",
+    "PyQt6",
+]
+requires-python = ">=3.10"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
